@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("blur-background-1.png");
+  
+  
+  
+  
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+}
+
+
+.main {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin:auto ;
+  width: 100%;
+  
+}
+
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 1px ;
+}
+
+
+.row,
+.row > .column {
+  
+}
+
+
+.column {
+  float: left;
+  width: 30%;
+  display: none; 
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+ 
+  padding: 65px;
+ 
+}
+
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+#player {
+  width: 13%;
+  bottom: 0; 
+position: fixed; 
+right: 0; 
+opacity: 20%;
+  
+  
+ }
+
+img {
+  border: 5px solid rgb(182, 39, 39);
+    }
+  .bn{
+    float: right;
+    background-color:white;
+    color:black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    border-radius: 5px;
+    margin: 10px;
+  }
